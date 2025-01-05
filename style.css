@@ -1,0 +1,60 @@
+#wholeparagraph {
+    width: 70%;
+    background-image: linear-gradient(to bottom right, #a5ccdd, #1AC8ED);
+    padding: 10px 30px 10px 10px;
+    color: #3e362e;
+    font-size:17px;
+    border-radius: 25px;
+    /* position:relative; */
+}
+
+body {
+    font-family: 'Courier New';
+}
+
+/* h1 {
+    color:white;
+    font-size:100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} */    
+
+#gradient {
+    padding: 13px;
+    background-image: linear-gradient(#000000, #808080);
+}
+
+.codepart {
+    font-family: 'Courier New';
+    background-color: #c9d9e8;
+    color: rgb(63, 78, 97);
+    border-radius: 4px;
+    display:inline-block;
+}
+
+/* #example {
+    padding:5px;
+} */
+
+.white_txt{
+    color: white;
+    font-size: 32px;
+}
+
+.link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #1b53ba;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+input:invalid {
+    border: 2px dashed red;
+}
+  
+input:valid {
+border: 2px solid black;
+}

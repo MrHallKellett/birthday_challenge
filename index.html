@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Compscinetan</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="gradient">
+        
+        
+        <h1 class="white_txt">--- Part 1 ---</h1>
+
+        <div id="wholeparagraph">
+        <p>Your birthday is… <strong>TODAY!</strong> After kindly inviting you to a party in the world of Compscinetan, your friends have bought you a birthday cake.
+            <br><br>
+            Oh… what a lovely group of robots! I wish they could sing ‘Happy Birthday to You’ all day.
+            <br><br>
+            Instead, these horrible creatures demanded you to cut the birthday cake - a chore that nobody really likes to do, in fact.
+            <br><br>
+            Even worse, they demanded you to cut the pieces according to the <strong>length of the aerials</strong> that they have above their heads. Your task is to find out the denominator of the percentage of the smallest slice of cake.
+            <br><br>
+            As the unspoken rules of Compscinetan state (by now you should already know them tho; I’m just reiterating), robots who have <strong>aerials longer or equal to than the length of the birthday bot’s aerial</strong> do not qualify to share a slice of cake. Also, bots whose aerials’ lengths, <strong>when converted to cm, is an integer</strong>, do not qualify either.
+            <br><br>
+            After a series of intense research, querying and surveying, you have found out the lengths of the aerials of each of your friends, and you have listed them in your notebook. 
+            <br><br>
+            For example, consider the list below:
+            <br>
+            </p>
+
+            <div>
+            <code class="codepart" id="example">
+            Mine	411989<br>
+            Alex	872477<br>
+            Ben	96344<br>
+            Charlotte	109030<br>
+            Daniel	932072<br>
+            Emily	262419<br>
+            </code>
+            </div>
+
+            <p>
+            <br>
+            To find out, check the lengths of each of your friends’ aerials.
+            <br><br>
+            Obviously your aerial qualifies, as the birthday bot deserves a slice of cake.<br>
+            &emsp;- Alex’s aerial is 872477 mm long, longer than yours. <br>
+            &emsp;- Ben’s aerial is 96344 mm long, shorter than yours. <br>
+            &emsp;- Charlotte’s aerial is 109030 mm long, shorter than yours. However, it does not qualify to enjoy a slice of cake as 109030 mm, when converted to cm, is an integer (10903 cm) <br>
+            &emsp;- Daniel’s aerial is 932072 mm long, longer than yours. <br>
+            &emsp;- Emily’s aerial is 262419 mm long, shorter than yours.
+            <br><br>
+            And so, you divide the cake into 3 portions - for yourself, Ben, and Emily. Check the proportion of each slice:
+            <br><br>
+            
+            Yours: <code class="codepart">411989 ÷ (411989 + 96344 + 262419)</code> = <code class="codepart">0.5345286162</code><br>
+            Ben’s: <code class="codepart">96344 ÷ (411989 + 96344 + 262419)</code> = <code class="codepart">1/8</code><br>
+            Emily’s: <code class="codepart">262419 ÷ (411989 + 96344 + 262419)</code> = <code class="codepart">0.3404713838</code><br>
+            
+            <br>
+            Since Ben’s slice is the smallest, the answer should be taken from the denominator of his portion: <strong>8</strong>.
+            <br><br>
+            However, the turnout at your party was far greater than anticipated; get your finalised list of robots and their aerials’ lengths to find out the answer.
+
+            <br><br>
+
+            To begin, <a href="puzzleinput.txt" target="_blank" class="link">get your puzzle input.</a>
+            </p>
+
+            <form>
+                <label for="answer">Enter your answer here: </label>
+                <input name="answer" id="answer"/>
+                <input id="button" type="submit" name="button" value="enter"/>
+                <!-- <button id="button">Submit</button> -->
+            </form>
+
+    </div>
+    </div> 
+    <script src="script.js"></script>
+    </body>
+</html>
